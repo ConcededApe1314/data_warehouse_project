@@ -34,12 +34,10 @@ GO
 -- Table 2: crm_prd_info
 -- Source: CRM
 --=============================================================================
--- Check if the table 'crm_prd_info' already exists and drop it if it does.
 IF OBJECT_ID ('bronze.crm_prd_info', 'U') IS NOT NULL
     DROP TABLE bronze.crm_prd_info;
 GO
 
--- Create the table to hold raw product data from the CRM.
 CREATE TABLE bronze.crm_prd_info (
     prd_id INT,
     prd_key NVARCHAR(50),
@@ -54,12 +52,10 @@ GO
 -- Table 3: crm_sales_details
 -- Source: CRM
 --=============================================================================
--- Check if the table 'crm_sales_details' already exists and drop it if it does.
 IF OBJECT_ID ('bronze.crm_sales_details', 'U') IS NOT NULL
     DROP TABLE bronze.crm_sales_details;
 GO
 
--- Create the table to hold raw sales transaction details.
 CREATE TABLE bronze.crm_sales_details (
     sls_ord_num NVARCHAR(50),
     sls_prd_key NVARCHAR(50),
@@ -76,12 +72,10 @@ GO
 -- Table 4: erp_loc_a101
 -- Source: ERP
 --=============================================================================
--- Check if the table 'erp_loc_a101' already exists and drop it if it does.
 IF OBJECT_ID ('bronze.erp_loc_a101', 'U') IS NOT NULL
     DROP TABLE bronze.erp_loc_a101;
 GO
 
--- Create the table to hold location data from the ERP.
 CREATE TABLE bronze.erp_loc_a101 (
     cid NVARCHAR(50),
     cntry NVARCHAR(50)
@@ -91,12 +85,10 @@ GO
 -- Table 5: erp_cust_az12
 -- Source: ERP
 --=============================================================================
--- Check if the table 'erp_cust_az12' already exists and drop it if it does.
 IF OBJECT_ID ('bronze.erp_cust_az12', 'U') IS NOT NULL
     DROP TABLE bronze.erp_cust_az12;
 GO
 
--- Create the table to hold additional customer data from the ERP.
 CREATE TABLE bronze.erp_cust_az12 (
     cid NVARCHAR(50),
     bdate DATE,
@@ -107,12 +99,10 @@ GO
 -- Table 6: erp_px_cat_g1v2
 -- Source: ERP
 --=============================================================================
--- Check if the table 'erp_px_cat_g1v2' already exists and drop it if it does.
 IF OBJECT_ID ('bronze.erp_px_cat_g1v2', 'U') IS NOT NULL
     DROP TABLE bronze.erp_px_cat_g1v2;
 GO
 
--- Create the table to hold product category data from the ERP.
 CREATE TABLE bronze.erp_px_cat_g1v2 (
     id NVARCHAR(50),
     cat NVARCHAR(50),
