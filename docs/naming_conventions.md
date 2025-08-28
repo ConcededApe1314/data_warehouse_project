@@ -5,11 +5,11 @@ This document outlines the naming conventions used for schemas, tables, views, c
 ## **Table of Contents**
 
 1. [General Principles](#general-principles)
-2. [Table Naming Conventions](#table-naming-conventions)
+2. [Tables](#tables)
    - [Bronze Rules](#bronze-rules)
    - [Silver Rules](#silver-rules)
    - [Gold Rules](#gold-rules)
-3. [Column Naming Conventions](#column-naming-conventions)
+3. [Columns](#columns)
    - [Surrogate Keys](#surrogate-keys)
    - [Technical Columns](#technical-columns)
 4. [Stored Procedures](#stored-procedure)
@@ -21,7 +21,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 - **Language**: Use English for all names.
 - **Avoid Reserved Words**: Do not use SQL reserved words as object names.
 
-## **Table Naming Conventions**
+## **Tables**
 
 ### **Bronze Rules**
 - All names must start with the source system name, and table names must match their original names without renaming.
