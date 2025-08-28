@@ -54,7 +54,7 @@ This document outlines the naming conventions used for schemas, tables, views, c
 | `fact_`     | Fact table                       | `fact_sales`                            |
 | `report_`   | Report table                     | `report_customers`, `report_sales_monthly`   |
 
-## **Column Naming Conventions**
+## **Columns**
 
 ### **Surrogate Keys**  
 - All primary keys in dimension tables must use the suffix `_key`.
