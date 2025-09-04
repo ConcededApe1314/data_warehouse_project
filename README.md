@@ -48,4 +48,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🌟 About Me
 
-Geophysical Engineer specializing in data analysis with Python, SQL, and Tableau.
+Hi! I'm Didier, a Geophysical Engineer specializing in data analysis with Python, SQL, and Tableau.
