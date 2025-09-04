@@ -12,7 +12,7 @@ This project involves:
 1. **Data Architecture**: Designing a Modern Data Warehouse Using Medallion Architecture **Bronze**, **Silver**, and **Gold** layers.
 2. **ETL Pipelines**: Extracting, transforming, and loading data from source systems into the warehouse.
 3. **Data Modeling**: Developing fact and dimension tables optimized for analytical queries.
-4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
+4. **Analytics & Reporting**: Creating SQL-based reports for actionable insights.
 
 ---
 
@@ -48,4 +48,4 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🌟 About Me
 
-Text about me !!!!!
+Geophysical Engineer specializing in data analysis with Python, SQL, and Tableau.
